@@ -2,7 +2,7 @@
 
 This project implements a research paper on semantic parsing for Large Language Model (LLM) responses. The system transforms natural language responses from LLMs into structured, machine-readable commands that can be used for UI automation, workflow execution, and task management.
 
-## 🌟 Features
+## Features
 
 - **Advanced Semantic Parsing**: Utilizes dependency parsing, NER, and intent detection to understand LLM responses
 - **Context-Aware Memory**: Maintains conversation history to improve parsing accuracy over time
@@ -10,7 +10,7 @@ This project implements a research paper on semantic parsing for Large Language 
 - **Demo Application**: Includes a fully functional CLI demo for interactive testing
 - **Test Suite**: Contains unit and integration tests to ensure reliability
 
-## 🔍 Key Components
+## Key Components
 
 1. **Semantic Parser Core**: Transforms natural language into structured commands
    - Intent detection using zero-shot classification
@@ -29,7 +29,7 @@ This project implements a research paper on semantic parsing for Large Language 
    - Command execution visualization
    - Rich, user-friendly interface
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -50,7 +50,7 @@ This project implements a research paper on semantic parsing for Large Language 
    python demo_application.py
    ```
 
-## 📊 Example Usage
+## Example Usage
 
 ### Basic Example
 
@@ -88,7 +88,7 @@ results = evaluator.evaluate(test_data)
 print(results["average"])
 ```
 
-## 📋 Project Structure
+## Project Structure
 
 ```
 semantic-parser-for-llm/
@@ -100,7 +100,7 @@ semantic-parser-for-llm/
 └── README.md                # Project documentation
 ```
 
-## 🔧 Customization
+## Customization
 
 The semantic parser can be customized for specific domains by:
 
